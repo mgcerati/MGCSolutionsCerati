@@ -1,0 +1,63 @@
+nav .collapse {
+  display: flex;
+  justify-content: right; }
+
+.card .card-text {
+  display: flex;
+  justify-content: center; }
+
+.card .btn {
+  display: flex;
+  justify-content: center; }
+
+.navbar {
+  background-color: #47a0d4; }
+
+.footer {
+  background-color: #000066; }
+
+.btn {
+  background-color: gray;
+  border-color: black; }
+
+.form {
+  width: 500px;
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#background-video {
+  height: 110%;
+  width: 110vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  margin-top: -10rem; }
+
+.videoContainer {
+  overflow: hidden;
+  display: block;
+  width: 100vw;
+  margin-left: -1.7rem; }
+
+.textoVideo {
+  position: absolute;
+  color: cornsilk;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center; }
+
+.containerGiganton {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }

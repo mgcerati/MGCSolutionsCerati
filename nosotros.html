@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <div class="containerGiganton">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">
@@ -46,25 +47,29 @@
         </div>
     </nav>
     <div id="nosotros">
-        <div class="container-md p-5">
-            <video width="320" height="240" autoplay loop muted>
-                <source src="./img/alb_cityscp101_1080p.mp4" type="video/mp4" />
-            </video>
-        </div>
-        <div class="container-md p-5">
+        <div class="container-fluid w-100 ">
 
-            <div class="row pt-5">
+            <div class="container-fluid videoContainer">
+            <div class="textoVideo">
                 <h3 class="text-center pb-5 pt-5 h1">Nosotros</h3>
                 <p class="text-center pb-5 ">Apoyando la Pequeña & Mediana Industria.</p>
             </div>
 
+            <div >
+                <video id="background-video" autoplay loop muted>
+                    <source src="./img/alb_cityscp101_1080p.mp4" type="video/mp4" />
+                </video>
+            </div>
+
+        </div>
+
             <div class="row">
                 <div class="col-l">
                     <div class="card w-100 card-border mb-5">
-                        <img src="img/example.jpg" class="card-img-top" alt="Marketing digital">
+                        <img src="img/emprendedores.jpg" class="card-img-top" alt="Marketing digital">
                         <div class="card-body">
                             <h5 class="card-title text-center">Ayudando la pequeña & mediana industria</h5>
-                            <p class="card-text text-center w-50">Conozcámonos, somos MGC Solutions,
+                            <p class="card-text text-center w-100">Conozcámonos, somos MGC Solutions,
                                 una agencia de marketing digital.
                                 Creemos que cada negocio tiene sus necesidades
                                 particulares y requiere de un manejo
@@ -203,6 +208,7 @@
             <a class="text-white" href="https://mgcsolutions.com/">mgcsolutions.com</a>
         </div>
     </footer>
+    </div>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>

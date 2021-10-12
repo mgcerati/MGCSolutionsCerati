@@ -46,21 +46,21 @@
         </div>
     </nav>
     <div id="contacto">
-        <div class="container-md p-5">
-            <video width="320" height="240" autoplay loop muted>
-                <source src="./img/recordplayer.mp4" type="video/mp4" />
-            </video>
-        </div>
-        <div class="container-md p-5">
-
-            <div class="row pt-5">
+        <div class="container-fluid w-100 ">
+            <div class="container-fluid videoContainer">
+            <div class="textoVideo">
                 <h3 class="text-center pb-5 pt-5 h1">Contacto</h3>
                 <p class="text-center pb-5">Nos interesa mucho tu opinion.</p>
             </div>
-
+        <div>
+            <video id="background-video" autoplay loop muted>
+                <source src="./img/recordplayer.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
             <div class="row">
-                <div class="col-l">
-                    <form class="form">
+                <div class="col-l2">
+                    <form class="form w-100 p-5">
                         <div class="form-outline mb-4">
                             <input type="text" id="form4Example1" class="form-control" />
                             <label class="form-label" for="form4Example1">Nombre y Apellido</label>
@@ -88,8 +88,6 @@
                     </form>
                 </div>
             </div>
-        </div>
-    </div>
 
     <div id="separador">
         <div class="content bg-success"></div>
